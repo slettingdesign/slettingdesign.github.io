@@ -1,0 +1,138 @@
+<svg width="100%" height="100%" viewBox="0 -8 63 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+
+    <defs>
+        <style type="text/css">
+
+
+            @keyframes rotateE{
+            15% {transform: rotate(0deg) translate(0px, 0px);}
+            20% {transform: rotate(90deg) translate(0px, 0px);}
+            90% {transform: rotate(90deg) translate(0px, 0px);}
+            95% {transform: rotate(0deg) translate(0px, 0px);}
+            }
+
+            .Cicero-E{
+            transform-origin: 50% 30%;
+            animation: rotateE 5s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+
+            @keyframes hideMiddleRight{
+            15% {opacity: 1;transform: translate(0px, 0px);}
+            20% {opacity: 1;transform: translate(-3px, 0px);}
+            22% {opacity: 0;}
+            85% {opacity: 0; transform: translate(-3px, 0px);}
+            90% {opacity: 1; transform: translate(-3px, 0px);}
+            94% {opacity: 1; transform: translate(0px, 0px);}
+            }
+
+            .MiddleRight{
+            transform-origin: 50% 50%;
+            animation: hideMiddleRight 5s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+
+            @keyframes hideMiddleMiddle{
+            15% {opacity: 1;transform: translate(0px, 0px) scaleX(1);}
+            17% {opacity: 1;transform: translate(0px, 0px)  scaleX(0);}
+            90% {opacity: 0; transform: translate(0px, 0px) scaleX(0);}
+            92% {opacity: 1; transform: translate(0px, 0px) scaleX(1);}
+            }
+
+            .MiddleMiddle{
+            transform-origin: 50% 50%;
+            animation: hideMiddleMiddle 5s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+
+            @keyframes moveMiddleLeft{
+            22% {transform: translate(0px, 0px);}
+            30% {transform: translate(8px, 5px);}
+            35% {transform: translate(16px, -5px);}
+            40% {transform: translate(24px, 5px);}
+            42% {transform: translate(27.5px, 2px);}
+            45% {transform: translate(23px, -5px);}
+            50% {transform: translate(15px, 5px);}
+            55% {transform: translate(7px, -5px);}
+            60% {transform: translate(-1px, 5px);}
+            65% {transform: translate(-9px, -5px);}
+            67% {transform: translate(-12.5px, -2px);}
+            70% {transform: translate(-8px, 5px);}            
+            75% {transform: translate(0px, 0px);}
+            }
+            
+            .MiddleLeft{
+            transform-origin: 50% 50%;
+            animation: moveMiddleLeft 5s infinite linear;
+            }
+            
+            @keyframes moveBottom{
+            22% {transform: translate(0px, 0px);}
+            30% {transform: translate(0px, 0px);}
+            35% {transform: translate(16px, 0px);}
+            45% {transform: translate(20px, 0px);}
+            50% {transform: translate(10px, 0px);}
+            60% {transform: translate(-9px, 0px);}
+            70% {transform: translate(-11px, 0px);}            
+            75% {transform: translate(0px, 0px);}
+            }
+            
+            .Bottom{
+            transform-origin: 50% 50%;
+            animation: moveBottom 5s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+            
+            @keyframes moveTop{
+            22% {transform: translate(0px, 0px);}
+            30% {transform: translate(8px, 0px);}
+            40% {transform: translate(14px, 0px);}
+            50% {transform: translate(14px, 0px);}
+            55% {transform: translate(-2px, 0px);}
+            65% {transform: translate(-10px, 0px);}
+            70% {transform: translate(-8px, 0px);}            
+            75% {transform: translate(0px, 0px);}
+            }
+            
+            .Top{
+            transform-origin: 50% 50%;
+            animation: moveTop 5s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+
+        </style>
+
+    </defs>
+
+
+
+
+    <g class="Cicero-E">
+
+        <g class="Top">
+
+            <circle class="TopRight" cx="38" cy="4" r="3.75" style="fill:#232323;"/>
+
+            <rect class="TopMiddle" x="25.086" y="0.25" width="12.914" height="7.5" style="fill:#232323;"/>
+
+            <circle class="TopLeft" cx="25.086" cy="4" r="3.75" style="fill:#232323;"/>
+        </g>
+
+        <g class="Middle">
+
+            <circle class="MiddleRight" cx="27.8" cy="15.977" r="3.75" style="fill:#232323;"/>
+
+            <circle class="MiddleLeft" cx="25.086" cy="15.977" r="3.75" style="fill:#232323;"/>
+
+            <rect class="MiddleMiddle" x="25.086" y="12.227" width="2.714" height="7.5" style="fill:#232323;"/>
+
+        </g>
+
+        <g class="Bottom">
+
+            <circle class="BottomRight" cx="38" cy="27.954" r="3.75" style="fill:#232323;"/>
+
+            <circle class="BottomLeft" cx="25.086" cy="27.954" r="3.75" style="fill:#232323;"/>
+
+            <rect class="BottomMiddle" x="25.086" y="24.204" width="12.914" height="7.5" style="fill:#232323;"/></g>
+
+
+
+
+    </g>
+</svg>
