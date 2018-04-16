@@ -358,7 +358,7 @@ template {
 
 .nav-link{
     color: white;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Space Mono', monospace;
     transition: color .3s cubic-bezier(0.4, 0.0, 0.2, 1) !important;   
     -moz-transition: color .3s cubic-bezier(0.4, 0.0, 0.2, 1) !important;  
     -webkit-transition: color .3s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
@@ -446,7 +446,7 @@ body{
 }
 
 h1{
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size:32px;
     font-weight: 200;
     color: #4A4A4A;
@@ -460,8 +460,8 @@ h3{
 }
 
 h4{
-    font-family: sofia-pro, sans-serif;
-    font-size:48px;
+    font-family: 'Space Mono', monospace;
+    font-size:28px;
     font-weight: 200;
     color: #4A4A4A;
     text-align: center;
@@ -475,7 +475,7 @@ h5{
 
 p{
     text-align: justify;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Space Mono', monospace;
     color: #fff;
     font-size: 18px;
     font-weight: 200; 
@@ -494,7 +494,7 @@ mark{
 .btn-outline-warning{
     font-size: 48px;
     font-weight: 200; 
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Space Mono', monospace;
     display: block;
     margin: auto;
     margin-top: 2rem;
@@ -641,6 +641,8 @@ progress::-webkit-progress-bar {
     padding-top: 0.1em;
     padding-right: 0.05em;
     padding-bottom: 0.15em;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .ml1 .line {
