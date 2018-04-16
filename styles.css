@@ -29,7 +29,9 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-image: url(assets/background.png);
+    background-position: 50% 0%; 
+    background-size: contain;  
 }
 
 [tabindex="-1"]:focus {
@@ -357,7 +359,7 @@ template {
 }
 
 .nav-link{
-    color: white;
+    color: "#4A4A4A";
     font-family: 'Space Mono', monospace;
     transition: color .3s cubic-bezier(0.4, 0.0, 0.2, 1) !important;   
     -moz-transition: color .3s cubic-bezier(0.4, 0.0, 0.2, 1) !important;  
@@ -507,11 +509,18 @@ mark{
 }
 
 .jumbo-1{
-    background-color: #007BAC;
-    padding-top: 20rem;
+    background-color: none;
+    padding-top: 16rem;
     transition: background-color 1s cubic-bezier(0.4, 0.0, 0.2, 1);   
     -moz-transition: background-color 1s cubic-bezier(0.4, 0.0, 0.2, 1);  
     -webkit-transition: background-color 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+    justify-content: center;
+    padding-bottom: 20rem;
+}
+
+.UXDesigner{
+    width: 100%;
+    justify-content: center;
 }
 
 .parallax-1{
@@ -702,7 +711,7 @@ progress::-webkit-progress-bar {
 
 @media (max-width: 768px) {
     .ml1 {
-        font-size: 24px;
+        font-size: 10px;
     }
     .ml11 {
         font-size: 54px;
@@ -713,7 +722,7 @@ progress::-webkit-progress-bar {
 /* Small devices (landscape phones, 576px and down)*/
 @media (max-width: 576px) {
     .ml1 {
-        font-size: 18px;
+        font-size: 10px;
     }
     .ml11 {
         font-size: 40px;

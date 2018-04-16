@@ -121,19 +121,8 @@
             <div class="container">
                 <div class="row" >
                     <div class="col-sm-12">
-                        <h1 class="ml1">
-                            <span class="text-wrapper">
-                                <span class="line line1"></span>
-                                <span class="letters">Hi, my name is Kristian and I am a </span>
-                                <span class="line line2"></span>
-                            </span>
-                        </h1>
-                        <h5 class="ml11">
-                            <span class="text-wrapper">
-                                <span class="line line1"></span>
-                                <span class="letters"> UX DESIGNER</span>
-                            </span>
-                        </h5>
+                        
+                        
 
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
@@ -142,8 +131,8 @@
 
 
                 </div>
-                <div class="col-sm-12">
-                    <img class="wiggle header-wiggle" src="assets/Icons/wiggle.svg">
+                <div class="col-lg-12">
+                    <img class="UXDesigner" src="assets/UXDesigner.png">
                 </div>
 
             </div>
@@ -364,7 +353,7 @@
                 }
                 else{
                     $(".navbar-opaque").css({"background-color": "rgba(255, 255, 255, 0)", "box-shadow": "0px 0px 0px #fff !important", "-webkit-backdrop-filter": "blur(0px)", "backdrop-filter": "blur(0px)"});
-                    $(".nav-link").css({"color": "#fff"});
+                    $(".nav-link").css({"color": "#4A4A4A"});
 
                     ;
                 }
@@ -404,7 +393,7 @@
 
                 }
                 else{
-                    $(".jumbo-1").css({"background-color": "#007BAC"});
+                    $(".jumbo-1").css({"background-color": "rgba(255, 255, 255, 0)"});
                     ;
                 }
             });
@@ -517,6 +506,7 @@
         window.sr = ScrollReveal({ reset: true, easing: 'cubic-bezier(0.0, 0.0, 0.2, 1)'});
         sr.reveal('.wiggle',{ duration: 2000});
         sr.reveal('.brandMockUp',{ duration: 1000, origin: 'right'});
+        sr.reveal('.UXDesigner',{ duration: 2000});
         sr.reveal('.roundimg',{ duration: 1000, origin: 'left', rotate: { x: 0, y: 0, z: 10 }});
     </script>
 
